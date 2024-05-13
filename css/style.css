@@ -133,6 +133,19 @@ body {
   filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
 }
 
+.cards_item:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 74px 96px var(--box-shadow-color);
+}
+.wrapper{
+background: teal;
+}
+.wrapper:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 74px 96px var(--box-shadow-color);
+}
 
 .card {
   background-color: white;
